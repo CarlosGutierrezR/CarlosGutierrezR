@@ -76,11 +76,8 @@ Actualmente cursando el **Máster en Ingeniería Informática (UGR)** y con expe
 
 ### 📫 Cómo contactarme
 
-- **LinkedIn:** [enlace a tu perfil](https://www.linkedin.com/…)  
+- **LinkedIn:** [enlace a tu perfil](www.linkedin.com/in/carlos-gutierrez-rondon)  
 - **Email:** chgut31@gmail.com
 
 _Siempre abierto a oportunidades en Data Engineering, Data Science junior y Ciberseguridad orientada a datos._
   
-- **Email:** tu correo profesional
-
-_Siempre abierto a oportunidades en Data Engineering, Data Science junior y Ciberseguridad orientada a datos._
