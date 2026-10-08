@@ -1,48 +1,49 @@
-# 👋 Hola, soy Carlos Alberto Gutiérrez Rondón
+# Hola, soy Carlos Alberto Gutiérrez Rondón
 
-**Ingeniero de Datos & Ciberseguridad**
+**Cybersecurity & Data Engineer** · SIEM (Wazuh) · Detección y Respuesta · Threat Hunting · Python · SQL
 
-Actualmente cursando el **Máster en Ingeniería Informática (UGR)**, con experiencia en tratamiento inteligente de datos y *machine learning* en Python, diseño de **pipelines de datos** para analítica y reporting, y laboratorios de **ciberseguridad** (SOC, Wazuh, pfSense, análisis de logs).
+Ingeniero de Sistemas con Máster en Ciberseguridad (UTH Florida University). Actualmente curso el **Máster en Ingeniería Informática en la Universidad de Granada**, con un TFM sobre la seguridad de asistentes LLM frente a *prompt injection* en logs de SOC.
+
+Construyo y documento casos prácticos en mi propio **laboratorio SOC** (VMware, pfSense, Wazuh, Security Onion, Active Directory, Windows 11 y Linux): telemetría validada, pruebas positivas y negativas, evidencia saneada y limitaciones declaradas.
 
 ---
 
-### 🚀 En qué estoy trabajando
+### 🛡️ Proyectos de ciberseguridad (laboratorio SOC)
 
-| Frente | Detalle |
+| Proyecto | Qué demuestra |
 |---|---|
-| Data Engineering | Ampliación de **LogiFlow_AWS_Data_Platform** con nuevas fuentes de datos y automatización en AWS |
-| Machine Learning | Proyectos de ML clásico (clasificación, clustering, visualización) basados en prácticas del máster |
-| Ciberseguridad | Laboratorio con máquinas vulnerables, Wazuh y SIEM para análisis de eventos |
+| [**soc-detection-engineering**](https://github.com/CarlosGutierrezR/soc-detection-engineering) · LAB-DET-001 | Gap de detección en Wazuh 4.14.7 (`-enc` frente a `-EncodedCommand`), causa raíz en la regex de la regla 92057, regla propia 100100 ajustada de V1 a V2 y regresión con GitHub Actions + PCRE2. MITRE ATT&CK T1059.001. |
+| [**soc-threat-hunting-zeek**](https://github.com/CarlosGutierrezR/soc-threat-hunting-zeek) · SEC-HUNT-001 | Hunt de *beaconing* guiado por hipótesis sobre telemetría Zeek (Security Onion): dataset congelado con SHA-256, ranking por coeficiente de variación y veredicto del analista. |
+| [**soc-security-automation**](https://github.com/CarlosGutierrezR/soc-security-automation) · SEC-AUTO-001 | Automatización SOC/SOAR en Python: normalización de alertas Wazuh, correlación de procesos, IOC, enriquecimiento con VirusTotal (*dry-run* por defecto), scoring explicable y aprobación humana obligatoria. |
 
 ---
 
-### 🛠️ Tech stack principal
-
-| Área | Tecnologías |
-|---|---|
-| Lenguajes | Python, SQL, Bash |
-| Datos / ML | pandas, NumPy, scikit-learn, matplotlib, seaborn |
-| Data Engineering | ETL con Python, bases de datos relacionales (PostgreSQL/MySQL), Git/GitHub |
-| Ciberseguridad | Linux, redes, virtualización (VirtualBox), Wazuh, pfSense |
-| Herramientas | Docker (en aprendizaje), VS Code, Jupyter, Linux (Ubuntu/Fedora) |
-
----
-
-### 📌 Proyectos destacados
+### 📊 Proyectos de datos y desarrollo
 
 | Proyecto | Descripción |
 |---|---|
-| **LogiFlow_AWS_Data_Platform** | Plataforma de datos en AWS — proyecto insignia de Data Engineering en la nube |
-| **passcheck-api** | API en Python para verificación y robustecimiento de contraseñas |
-| **leyne-commerce** | Plataforma de e-commerce en TypeScript |
-| **empresa_project** | Proyecto de gestión empresarial en Python |
-| **proy-ssweb-carlos** | Tienda web académica (Node.js, Express, TypeScript, Prisma, PostgreSQL) |
-| **data-pipeline-ventas** | Pipeline ETL de ventas (Python, Airflow, PostgreSQL, Docker) |
+| [**LogiFlow_AWS_Data_Platform**](https://github.com/CarlosGutierrezR/LogiFlow_AWS_Data_Platform) | Plataforma de datos end-to-end en AWS: S3, Glue (PySpark), Athena y Step Functions, con Terraform y CI/CD. |
+| [**passcheck-api**](https://github.com/CarlosGutierrezR/passcheck-api) | Microservicio FastAPI que comprueba contraseñas filtradas mediante k-Anonymity (Pwned Passwords), sin almacenar contraseñas ni hashes completos. |
+| [**empresa_project**](https://github.com/CarlosGutierrezR/empresa_project) | Veritas Fex: plataforma financiera multi-moneda en GCP (proyecto grupal, Digital Tech Bootcamp 2026) con FastAPI, BigQuery y Streamlit. |
+
+Otros: [data-pipeline-ventas](https://github.com/CarlosGutierrezR/data-pipeline-ventas) (ETL con Airflow y PostgreSQL) · [leyne-commerce](https://github.com/CarlosGutierrezR/leyne-commerce) (Next.js, Express, Prisma) · [proy-ssweb-carlos](https://github.com/CarlosGutierrezR/proy-ssweb-carlos) (tienda web académica).
 
 ---
 
-### 📫 Cómo contactarme
+### 🛠️ Stack
 
-**LinkedIn:** www.linkedin.com/in/carlosgutierrez-rondon · **Email:** chgut31@gmail.com
+| Área | Tecnologías |
+|---|---|
+| Seguridad | Wazuh, Sysmon, Security Onion (Zeek, Suricata), pfSense, Active Directory, Kali Linux, MITRE ATT&CK |
+| Lenguajes | Python, SQL, Bash |
+| Datos | ETL/ELT, PostgreSQL, MySQL, SQL Server, BigQuery, PySpark |
+| Cloud e infraestructura | AWS, GCP, Terraform, Docker, VMware Workstation |
+| Calidad y automatización | pytest, GitHub Actions, Git/GitHub |
 
-*Siempre abierto a oportunidades en Data Engineering, Data Science y Ciberseguridad orientada a datos.*
+---
+
+### 📫 Contacto
+
+Escríbeme por **LinkedIn:** [linkedin.com/in/carlosgutierrez-rondon](https://www.linkedin.com/in/carlosgutierrez-rondon/)
+
+*Abierto a oportunidades como Analista SOC, Ingeniero de Ciberseguridad (Blue Team / Detection Engineering) e Ingeniero de Datos.*
