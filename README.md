@@ -42,6 +42,12 @@ Otros: [data-pipeline-ventas](https://github.com/CarlosGutierrezR/data-pipeline-
 
 ---
 
+### 🌐 English summary
+
+**Cybersecurity & Data Engineer** — Systems Engineer with an MSc in Cybersecurity (UTH Florida University), currently studying an MSc in Computer Engineering at the University of Granada with a thesis on the security of LLM assistants against prompt injection in SOC logs. I build and document hands-on cases in my own SOC lab — Wazuh detection engineering, Zeek threat hunting and SOAR-style automation — with validated telemetry, positive and negative tests, sanitized evidence and stated limitations. Open to SOC Analyst, Blue Team / Detection Engineering and Data Engineering roles.
+
+---
+
 ### 📫 Contacto
 
 Escríbeme por **LinkedIn:** [linkedin.com/in/carlosgutierrez-rondon](https://www.linkedin.com/in/carlosgutierrez-rondon/)
