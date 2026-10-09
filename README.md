@@ -23,10 +23,7 @@ Construyo y documento casos prácticos en mi propio **laboratorio SOC** (VMware,
 | Proyecto | Descripción |
 |---|---|
 | [**LogiFlow_AWS_Data_Platform**](https://github.com/CarlosGutierrezR/LogiFlow_AWS_Data_Platform) | Plataforma de datos end-to-end en AWS: S3, Glue (PySpark), Athena y Step Functions, con Terraform y CI/CD. |
-| [**passcheck-api**](https://github.com/CarlosGutierrezR/passcheck-api) | Microservicio FastAPI que comprueba contraseñas filtradas mediante k-Anonymity (Pwned Passwords), sin almacenar contraseñas ni hashes completos. |
 | [**empresa_project**](https://github.com/CarlosGutierrezR/empresa_project) | Veritas Fex: plataforma financiera multi-moneda en GCP (proyecto grupal, Digital Tech Bootcamp 2026) con FastAPI, BigQuery y Streamlit. |
-
-Otros: [data-pipeline-ventas](https://github.com/CarlosGutierrezR/data-pipeline-ventas) (ETL con Airflow y PostgreSQL) · [leyne-commerce](https://github.com/CarlosGutierrezR/leyne-commerce) (Next.js, Express, Prisma) · [proy-ssweb-carlos](https://github.com/CarlosGutierrezR/proy-ssweb-carlos) (tienda web académica).
 
 ---
 
