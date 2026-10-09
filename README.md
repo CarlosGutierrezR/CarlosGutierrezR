@@ -23,7 +23,6 @@ Construyo y documento casos prácticos en mi propio **laboratorio SOC** (VMware,
 | Proyecto | Descripción |
 |---|---|
 | [**LogiFlow_AWS_Data_Platform**](https://github.com/CarlosGutierrezR/LogiFlow_AWS_Data_Platform) | Plataforma de datos end-to-end en AWS: S3, Glue (PySpark), Athena y Step Functions, con Terraform y CI/CD. |
-| [**empresa_project**](https://github.com/CarlosGutierrezR/empresa_project) | Veritas Fex: plataforma financiera multi-moneda en GCP (proyecto grupal, Digital Tech Bootcamp 2026) con FastAPI, BigQuery y Streamlit. |
 
 ---
 
