@@ -15,6 +15,7 @@ Construyo y documento casos prácticos en mi propio **laboratorio SOC** (VMware,
 | [**soc-detection-engineering**](https://github.com/CarlosGutierrezR/soc-detection-engineering) · LAB-DET-001 | Gap de detección en Wazuh 4.14.7 (`-enc` frente a `-EncodedCommand`), causa raíz en la regex de la regla 92057, regla propia 100100 ajustada de V1 a V2 y regresión con GitHub Actions + PCRE2. MITRE ATT&CK T1059.001. |
 | [**soc-threat-hunting-zeek**](https://github.com/CarlosGutierrezR/soc-threat-hunting-zeek) · SEC-HUNT-001 | Hunt de *beaconing* guiado por hipótesis sobre telemetría Zeek (Security Onion): dataset congelado con SHA-256, ranking por coeficiente de variación y veredicto del analista. |
 | [**soc-security-automation**](https://github.com/CarlosGutierrezR/soc-security-automation) · SEC-AUTO-001 | Automatización SOC/SOAR en Python: normalización de alertas Wazuh, correlación de procesos, IOC, enriquecimiento con VirusTotal (*dry-run* por defecto), scoring explicable y aprobación humana obligatoria. |
+| [**soc-operations-triage**](https://github.com/CarlosGutierrezR/soc-operations-triage) · SOC-OPS | Operación SOC: triage de alertas Wazuh/Sysmon, casos documentados, handover de turno, comparación de alertas recurrentes (regla 92058) y recuperación controlada con Wazuh FIM (IR-001), con limitaciones declaradas. |
 
 ---
 
@@ -40,7 +41,7 @@ Construyo y documento casos prácticos en mi propio **laboratorio SOC** (VMware,
 
 ### 🌐 English summary
 
-**Cybersecurity & Data Engineer** — Systems Engineer with an MSc in Cybersecurity (UTH Florida University), currently studying an MSc in Computer Engineering at the University of Granada with a thesis on the security of LLM assistants against prompt injection in SOC logs. I build and document hands-on cases in my own SOC lab — Wazuh detection engineering, Zeek threat hunting and SOAR-style automation — with validated telemetry, positive and negative tests, sanitized evidence and stated limitations. Open to SOC Analyst, Blue Team / Detection Engineering and Data Engineering roles.
+**Cybersecurity & Data Engineer** — Systems Engineer with an MSc in Cybersecurity (UTH Florida University), currently studying an MSc in Computer Engineering at the University of Granada with a thesis on the security of LLM assistants against prompt injection in SOC logs. I build and document hands-on cases in my own SOC lab — Wazuh detection engineering, Zeek threat hunting, SOAR-style automation and SOC alert triage — with validated telemetry, positive and negative tests, sanitized evidence and stated limitations. Open to SOC Analyst, Blue Team / Detection Engineering and Data Engineering roles.
 
 ---
 
